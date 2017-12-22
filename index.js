@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var child_process = require('child_process');
 function copyDir(src, dist) {
     child_process.spawn('cp', ['-r', src, dist]);	
