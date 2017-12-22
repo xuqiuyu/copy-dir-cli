@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "copy  a whole dir to  destination dir",
   "main": "index.js",
+  "bin": {
+    "copy": "index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xuqiuyu/copy-dir-cli.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node","cli","commander"],
+  "author": "Breeze",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xuqiuyu/copy-dir-cli/issues"
